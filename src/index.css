@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    background: url("./assets/bg.svg");
+    background: url("/assets/bg.svg");
     background-size: cover;
     color: white;
 }

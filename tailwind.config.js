@@ -16,8 +16,8 @@ export default {
         gradient: 'linear-gradient(45deg, #7FE786, #58A7FE)',
       },
       fontSize: {
-        h1: '50px',
-        h2: '30px',
+        h1: '40px',
+        h2: '20px',
         small: '12px'
       }
     },

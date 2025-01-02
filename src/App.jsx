@@ -1,5 +1,4 @@
 import Header from "./components/Header";
-import Background from "./assets/bg.svg"
 
 const App = () => {
   return (
