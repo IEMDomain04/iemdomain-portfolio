@@ -9,11 +9,17 @@ export default {
       colors: {
         primary: '#7FE786',
         secondary: '#58A7FE',
+        accent: '#95A3B7',
         dark: '#151A20',
         gray: '#242B33',
       },
       backgroundImage: {
         gradient: 'linear-gradient(45deg, #7FE786, #58A7FE)',
+      },
+      fontFamily: {
+        google: ['Google'],
+        googlebold: ['Google-Bold'],
+        netron: ['Netron'],
       },
       fontSize: {
         h1: '40px',

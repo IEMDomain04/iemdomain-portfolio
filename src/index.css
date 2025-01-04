@@ -2,8 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Google";
+    src: local("googlesans-regular"),
+    url('./assets/fonts/googlesans-regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Google-Bold";
+    src: local("googlesans-bold"),
+    url('./assets/fonts/googlesans-bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Netron";
+    src: local("Netron"),
+    url('./assets/fonts/Netron.ttf') format("truetype");
+}
+
 body {
     background: url("/assets/bg.svg");
     background-size: cover;
+    font-family: google;
     color: white;
 }
