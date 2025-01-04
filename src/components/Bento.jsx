@@ -12,10 +12,10 @@ function Bento() {
         </div>
         {/* Certs */}
         <div className="bg-gray-800 text-white rounded-lg border border-accent shadow-md p-6 flex items-center justify-center text-center">
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="be5be992-9c81-4624-a977-e1bc85d6a251" data-share-badge-host="https://www.credly.com"></div>
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="be5be992-9c81-4624-a977-e1bc85d6a251" data-share-badge-host="https://www.credly.com"></div>
         </div>
         <div className="bg-gray-800 text-white rounded-lg border border-accent shadow-md p-6 flex items-center justify-center text-center">
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2726eaae-061f-4930-bf3b-c5b5e361a0ff" data-share-badge-host="https://www.credly.com"></div>
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2726eaae-061f-4930-bf3b-c5b5e361a0ff" data-share-badge-host="https://www.credly.com"></div>
         </div>
         {/* Social Links */}
         <div className="space-x-2 col-span-1 sm:col-span-2 flex justify-evenly bg-gray-800 text-white rounded-lg shadow-md p-4">
@@ -31,7 +31,7 @@ function Bento() {
         </div>
         {/* GitHub Contributions */}
         <div className="col-span-1 sm:col-span-2 lg:col-span-2 border border-accent bg-gray-800 text-white rounded-lg shadow-md p-6 flex items-center justify-center text-center">
-          GitHub Contributions
+          <img src="https://github-readme-stats.vercel.app/api?username=IEMDomain04&show_icons=true&theme=dark" alt="GitHub Contribution Graph" />
         </div>
       </section>
     </main>
