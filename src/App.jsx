@@ -4,15 +4,16 @@ import Projects from "./components/Projects";
 
 const App = () => {
   return (
-    <main>
+    <main className="h-screen">
 
-      <div>
+      <div className="">
         <Header />
       </div>
 
-      <div>
+      <div className="">
         <Bento />
       </div>
+
     </main>
   );
 };
