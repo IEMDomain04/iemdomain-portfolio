@@ -4,7 +4,7 @@ import Projects from "./components/Projects";
 
 const App = () => {
   return (
-    <main className="h-screen">
+    <main className="">
 
       <div className="">
         <Header />
