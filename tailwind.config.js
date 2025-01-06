@@ -12,6 +12,7 @@ export default {
         accent: '#95A3B7',
         dark: '#151A20',
         gray: '#242B33',
+        footer: '#09090B',
       },
       backgroundImage: {
         gradient: 'linear-gradient(45deg, #7FE786, #58A7FE)',
