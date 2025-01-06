@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <main className='justify-self-center max-w-5xl max-sm:px-10'>
-      <section className='flex flex-col h-screen gap-8 sm:justify-center max-sm:pt-32'>
+      <section className='flex flex-col gap-8 sm:justify-center max-sm:pt-32'>
         
         <div className='flex w-fit items-center rounded-full gap-3 py-1.5 pl-3 pr-4 border border-accent'>
           <div className='relative size-3'>
