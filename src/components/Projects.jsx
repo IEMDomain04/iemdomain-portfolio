@@ -3,7 +3,7 @@ import ProjectCards from '../Cards/Projects/ProjectCards'
 
 function Projects() {
     return (
-        <main className='justify-self-center max-w-5xl w-full'>
+        <main id='project-section' className='justify-self-center max-w-5xl w-full'>
             <section className='flex justify-between items-center mb-10 max-sm:block max-sm:space-y-5'>
 
                 <div>

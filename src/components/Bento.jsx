@@ -4,6 +4,9 @@ import GithubCard from '../Cards/GithubCard';
 import TechStack from '../Cards/TechStack';
 import Certs from '../Cards/Certs';
 
+const scrollToProjects = () => {
+    document.getElementById('project-section').scrollIntoView({ behavior: 'smooth', block: 'center'  });
+  };
 
 function Bento() {
     return (
@@ -23,13 +26,14 @@ function Bento() {
                     </div>
 
                     <div>
-                        <button className='w-full p-3 rounded-xl border border-accent hover:scale-95 duration-300 hover:bg-dark'>See Projects..</button>
+                        <button className='w-full p-3 rounded-xl border border-accent hover:scale-95 duration-300 hover:bg-dark'
+                        onClick={scrollToProjects}>See Projects..</button>
                     </div>
                 </div>
 
                 <div className='space-y-3'>
 
-                <div>
+                    <div>
                         <Contacts />
                     </div>
 
