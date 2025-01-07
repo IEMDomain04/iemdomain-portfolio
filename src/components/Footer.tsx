@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const links = [
     { name: "About", href: ""},
@@ -8,6 +7,14 @@ const links = [
 
 const updates = [
     { date: "January 6", time: "12:32"},
+]
+
+const socials = [
+    {src:"./assets/github.svg", href:"https://github.com/IEMDomain04", alt:"Github icon"},
+    {src:"./assets/linkedin.svg", href:"https://www.linkedin.com/in/emman-manduriaga0044/", alt:"Linkedin icon"},
+    {src:"./assets/facebook.svg", href:"https://www.facebook.com/emman.manduriaga.7", alt:"Facebook icon"},
+    {src:"./assets/email.svg", href:"emmanmanduriaga@gmail.com", alt:"Email icon"},
+    {src:"./assets/notion.svg", href:"http://iememman.notion.site", alt:"Notion icon"},
 ]
 
 const Footer = () => {
@@ -21,11 +28,9 @@ const Footer = () => {
 
                 <div className='space-y-5'>
                 <div className='flex flex-wrap gap-5'>
-                    <a target='_blank' href="https://github.com/IEMDomain04"><img className="h-auto w-5 max-sm:w-6 duration-300 hover:scale-90" src="./assets/github.svg" alt="github icon" /></a>
-                    <a target='_blank' href="https://www.facebook.com/emman.manduriaga.7"><img className="h-auto w-5 max-sm:w-6 duration-300 hover:scale-90" src="/assets/linkedin.svg" alt="linkedin icon" /></a>
-                    <a target='_blank' href="https://www.linkedin.com/in/emman-manduriaga0044/"><img className="h-auto w-5 max-sm:w-6 duration-300 hover:scale-90" src="/assets/facebook.svg" alt="facebook icon" /></a>
-                    <a target='_blank' href="emmanmanduriaga@gmail.com"><img className="h-auto w-5 max-sm:w-6 duration-300 hover:scale-90" src="/assets/email.svg" alt="email icon" /></a>
-                    <a target='_blank' href="http://iememman.notion.site"><img className="h-auto w-5 max-sm:w-6 duration-300 hover:scale-90" src="/assets/notion.svg" alt="notion icon" /></a>
+                    {socials.map((social, index) => (
+                        <a className="h-auto w-5 max-sm:w-6 duration-300 hover:scale-90" key={index} target='_blank' href={social.href}><img src={social.src} alt={social.alt} /></a>
+                    ))}
                 </div>
                 <h2 className='text-small text-accent'>© 2025 EMMAN. All rights reserved.</h2>
                 </div>
@@ -33,7 +38,7 @@ const Footer = () => {
 
             <section className='space-y-24 max-sm:space-y-0 max-sm:mb-20 max-sm:flex max-sm:flex-col-reverse'>
 
-                <div className='space-y-3'>
+                <div className='space-y-3 max-w-fit'>
                     <h1 className='max-sm:mt-10'>Me</h1>
                     <div className='space-y-2'>
                     {links.map((link, index) => (

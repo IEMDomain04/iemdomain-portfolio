@@ -1,9 +1,10 @@
 import React from 'react'
+import ProjectCards from '../Cards/Projects/ProjectCards'
 
 function Projects() {
     return (
         <main className='justify-self-center max-w-5xl w-full max-sm:px-10'>
-            <section className='flex justify-between items-center max-sm:block max-sm:space-y-5'>
+            <section className='flex justify-between items-center mb-10 max-sm:block max-sm:space-y-5'>
 
                 <div>
                     <div className='flex w-fit items-center rounded-full gap-3 py-2 px-8 border mb-5 bg-black border-accent'>
@@ -27,8 +28,9 @@ function Projects() {
                 <div>
                     <button className='px-5 py-3 h-fit border-accent border rounded-lg hover:scale-95 duration-300 hover:bg-dark max-sm:p-3 max-sm:text-small' type="button"> See all projects</button>
                 </div>
-
             </section>
+
+            <ProjectCards />
         </main>
     )
 }
