@@ -7,7 +7,7 @@ import Certs from '../Cards/Certs';
 
 function Bento() {
     return (
-        <main className="justify-self-center max-w-5xl max-sm:px-10">
+        <main id='bento-section' className="justify-self-center max-w-5xl">
             <h1 className="text-h1 font-netron max-sm:text-h2">ABOUT</h1>
             <hr className="my-6 border-dark" />
 

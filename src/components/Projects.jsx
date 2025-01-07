@@ -3,7 +3,7 @@ import ProjectCards from '../Cards/Projects/ProjectCards'
 
 function Projects() {
     return (
-        <main className='justify-self-center max-w-5xl w-full max-sm:px-10'>
+        <main className='justify-self-center max-w-5xl w-full'>
             <section className='flex justify-between items-center mb-10 max-sm:block max-sm:space-y-5'>
 
                 <div>
@@ -19,7 +19,7 @@ function Projects() {
                         <h1 className='text-h1 font-netron max-sm:text-h2'>
                             LEARNING JOURNEY
                         </h1>
-                        <h2 className='text-h2 max-w-2xl text-slate-400 max-sm:text-small'>
+                        <h2 className='text-sm max-w-2xl text-slate-400 max-sm:text-small'>
                             Insights and experiences from my journey as a developer—exploring ideas,
                             overcoming challenges, and sharing lessons learned along the way. </h2>
                     </div>

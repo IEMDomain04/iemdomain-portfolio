@@ -5,24 +5,25 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <main>
-
-      <div className="my-52 max-sm:mb-32">
+    <>
+    <main className="mt-48 space-y-44 max-sm:mt-0 max-sm:px-4 max-sm:space-y-32">
+      <div>
         <Header />
       </div>
 
-      <div className="my-52 max-sm:mb-32">
+      <div>
         <Bento />
       </div>
 
-      <div className="my-52 max-sm:mb-32">
+      <div>
         <Projects />
       </div>
+      </main>
 
       <footer>
         <Footer />
       </footer>
-    </main>
+    </>
   );
 };
 
