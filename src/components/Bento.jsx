@@ -10,10 +10,8 @@ const scrollToProjects = () => {
 
 function Bento() {
     return (
-        <main id='bento-section' className="justify-self-center max-w-5xl">
-            <h1 className="text-h1 font-netron max-sm:text-h2">ABOUT</h1>
-            <hr className="my-6 border-dark" />
-
+        <main className="justify-self-center max-w-5xl">
+            <h1 className="text-h1 my-6 max-w-fit text-transparent bg-clip-text bg-gradient font-netron max-sm:text-h2">ABOUT</h1>
             <section className='grid grid-cols-2 gap-3 max-sm:grid-cols-1'>
 
                 <div className='space-y-3'>
@@ -26,7 +24,7 @@ function Bento() {
                     </div>
 
                     <div>
-                        <button className='w-full p-3 rounded-xl border border-accent hover:scale-95 duration-300 hover:bg-dark'
+                        <button className='w-full p-3 rounded-xl border border-accent hover:scale-95 duration-300 active:scale-50 hover:bg-dark'
                         onClick={scrollToProjects}>See Projects..</button>
                     </div>
                 </div>

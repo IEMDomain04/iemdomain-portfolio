@@ -18,7 +18,7 @@ function Header() {
         </div>
 
         <div className='space-y-5 max-sm:mb-10'>
-          <h1 className='text-h1 text-gradient font-netron font-medium max-sm:text-2xl'>
+          <h1 className='max-w-fit text-transparent bg-clip-text bg-gradient text-h1 text-gradient font-netron font-medium max-sm:text-2xl'>
             I'M EMMAN.
             <br />
             A WEB DEVELOPER.
@@ -30,7 +30,7 @@ function Header() {
         </div>
 
         
-        <button class="bg-dark border-gray font-googlebold text-sm border-2 border-b-4 border-r-4 rounded max-w-40 py-2 px-5 max-sm:max-w-full hover:border-b-2 hover:border-r-2 hover:translate-y-1 hover:translate-x-1 transition-all duration-200 active:bg-black"
+        <button class=" border border-accent text-sm rounded max-w-40 py-2 px-5 hover:scale-95 hover:bg-dark max-sm:max-w-full duration-200 active:scale-50"
         onClick={scrollToBento}>
             Learn more..
         </button>

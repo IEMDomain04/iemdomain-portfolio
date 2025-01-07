@@ -13,7 +13,9 @@ const GithubCard = () => {
                     <h2 className='text-small'> Github Activity </h2>
                 </div>
 
-                <img className='mb-5 mx-auto cursor-pointer shadow rounded-md hover:scale-95 duration-300 hover:shadow-primary max-sm:rounded-sm' src="https://github-readme-stats.vercel.app/api?username=IEMDomain04&show_icons=true&theme=dark" alt="GitHub Contribution Graph" />
+                <a target='_blank' href="https://github.com/IEMDomain04">
+                    <img className='mb-5 mx-auto cursor-pointer shadow rounded-md hover:scale-95 duration-300 hover:shadow-primary max-sm:rounded-sm' src="https://github-readme-stats.vercel.app/api?username=IEMDomain04&show_icons=true&theme=dark" alt="GitHub Contribution Graph" />
+                </a>
 
                 <div className='text-left'>
                     <p className='text-accent text-sm'> Here is my GitHub activity status. I enjoy using GitHub, especially for collaborating on group projects.</p>

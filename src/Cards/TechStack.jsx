@@ -1,12 +1,12 @@
 import React from 'react'
 
 const stacks = [
-    {src: "./assets/icons/react.svg", href: "", alt: "React icon"},
-    {src: "./assets/icons/astro.svg", href: "", alt: "Astro icon"},
-    {src: "./assets/icons/laravel.svg", href: "", alt: "Laravel icon"},
-    {src: "./assets/icons/tailwind.svg", href: "", alt: "TailwindCSS icon"},
-    {src: "./assets/icons/firebase.svg", href: "", alt: "Firebase icon"},
-    {src: "./assets/icons/dart.svg", href: "", alt: "Dart icon"},
+    {src: "./assets/icons/react.svg", href: "https://react.dev/", alt: "React icon"},
+    {src: "./assets/icons/astro.svg", href: "https://astro.build/", alt: "Astro icon"},
+    {src: "./assets/icons/laravel.svg", href: "https://laravel.com/", alt: "Laravel icon"},
+    {src: "./assets/icons/tailwind.svg", href: "https://tailwindcss.com/", alt: "TailwindCSS icon"},
+    {src: "./assets/icons/firebase.svg", href: "https://firebase.google.com/", alt: "Firebase icon"},
+    {src: "./assets/icons/dart.svg", href: "https://dart.dev/", alt: "Dart icon"},
 ]
 
 const TechStack = () => {
@@ -23,7 +23,7 @@ const TechStack = () => {
 
                 <div className="flex justify-center flex-wrap gap-8 mb-5 max-sm:gap-4">
                     {stacks.map((stack, index) => (
-                        <a className='animate-pulse' href={stack.href}><img className="tech-icon h-auto w-12 cursor-pointer shadow-inner rounded-xl p-1 hover:scale-95 duration-300 hover:shadow-primary" src={stack.src} alt={stack.alt} /></a>
+                        <a className='animate-pulse' target='_blank' href={stack.href}><img className="tech-icon h-auto w-12 cursor-pointer shadow-inner rounded-xl p-1 hover:scale-95 duration-300 hover:shadow-primary" src={stack.src} alt={stack.alt} /></a>
                     ))}
                 </div>
                 

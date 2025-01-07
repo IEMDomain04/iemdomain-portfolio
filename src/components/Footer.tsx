@@ -1,8 +1,8 @@
 import React from 'react'
 
 const links = [
-    { name: "About", href: ""},
-    { name: "Project", href: ""},
+    { name: "About", href: "#bento-section"},
+    { name: "Project", href: "#project-section"},
 ]
 
 const updates = [
@@ -18,6 +18,11 @@ const socials = [
 ]
 
 const Footer = () => {
+    const handleScroll = (e, href) => {
+        e.preventDefault();
+        document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <footer className='flex justify-around bg-footer p-10 border-t-4 border-dark mt-20 max-sm:flex-col-reverse'>
             <section className='space-y-20'>
@@ -42,7 +47,14 @@ const Footer = () => {
                     <h1 className='max-sm:mt-10'>Me</h1>
                     <div className='space-y-2'>
                     {links.map((link, index) => (
-                        <a className='block text-accent text-small hover:text-white' key={index} href={link.href}>{link.name}</a>
+                        <a
+                            className='block text-accent text-small hover:text-white'
+                            key={index}
+                            href={link.href}
+                            onClick={(e) => handleScroll(e, link.href)}
+                        >
+                            {link.name}
+                        </a>
                     ))}
                     </div>
                     </div>
