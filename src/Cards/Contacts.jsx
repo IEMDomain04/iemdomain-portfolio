@@ -13,7 +13,7 @@ const Contacts = () => {
         <main>
             <div className="flex justify-between bg-gray-800 text-white rounded-xl">
                 {socials.map((social, index) => (
-                    <a key={index} target='_blank' href={social.href}><img className="py-7 px-8 max-sm:p-3 h-auto max-sm:w-12 bg-dark rounded-xl border shadow-inner border-accent duration-300 hover:scale-95 hover:shadow-primary" src={social.src} alt="github icon" /></a>
+                    <a className='py-7 px-8 max-sm:p-3 h-auto max-sm:w-12 bg-dark rounded-xl border shadow-inner border-accent duration-300 hover:scale-95 hover:shadow-primary' key={index} target='_blank' href={social.href}><img className="animate-bounce" src={social.src} alt="github icon" /></a>
                 ))}
             </div>
         </main>

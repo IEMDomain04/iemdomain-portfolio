@@ -25,7 +25,7 @@ function Projects() {
                 </div>
 
                 <div>
-                    <button className='p-5 h-fit bg-dark  border-accent border rounded-lg shadow-inner hover:scale-95 duration-300 hover:shadow-primary max-sm:p-3 max-sm:text-small' type="button"> See all projects</button>
+                    <button className='px-5 py-3 h-fit border-accent border rounded-lg hover:scale-95 duration-300 hover:bg-dark max-sm:p-3 max-sm:text-small' type="button"> See all projects</button>
                 </div>
 
             </section>

@@ -11,9 +11,9 @@ function Bento() {
             <h1 className="text-h1 font-netron max-sm:text-h2">ABOUT</h1>
             <hr className="my-6 border-dark" />
 
-            <section className='grid grid-cols-2 gap-5 max-sm:grid-cols-1'>
+            <section className='grid grid-cols-2 gap-3 max-sm:grid-cols-1'>
 
-                <div className='space-y-5'>
+                <div className='space-y-3'>
                     <div>
                         <TechStack />
                     </div>
@@ -23,11 +23,11 @@ function Bento() {
                     </div>
 
                     <div>
-                        <button className='w-full p-3 rounded-xl bg-dark border border-accent shadow-inner hover:scale-95 duration-300 hover:shadow-primary'>See Projects..</button>
+                        <button className='w-full p-3 rounded-xl border border-accent hover:scale-95 duration-300 hover:bg-dark'>See Projects..</button>
                     </div>
                 </div>
 
-                <div className='space-y-6'>
+                <div className='space-y-3'>
 
                 <div>
                         <Contacts />
