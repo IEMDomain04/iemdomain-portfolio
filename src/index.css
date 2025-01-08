@@ -4,22 +4,22 @@
 
 @font-face {
     font-family: "Google";
-    src: url(./assets/fonts/googlesans-regular.ttf) format("truetype");
+    src: url("/assets/fonts/googlesans-regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Google-Bold";
-    src: url(./assets/fonts/googlesans-bold.ttf) format("truetype");
+    src: url("/assets/fonts/googlesans-bold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Netron";
-    src: url(./assets/fonts/Netron.ttf) format("truetype");
+    src: url("/assets/fonts/Netron.ttf") format("truetype");
 }
 
 body {
     background: url("/assets/bg.svg");
     background-size: cover;
-    font-family: google;
+    font-family: google, sans-serif;
     color: white;
 }

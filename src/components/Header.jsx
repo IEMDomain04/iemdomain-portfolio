@@ -17,7 +17,7 @@ function Header() {
           <h1>Computer Science Student</h1>
         </div>
 
-        <div className='space-y-5 max-sm:mb-10'>
+        <div className='space-y-5'>
           <h1 className='max-w-fit text-transparent bg-clip-text bg-gradient text-h1 text-gradient font-netron font-medium max-sm:text-2xl'>
             I'M EMMAN.
             <br />
