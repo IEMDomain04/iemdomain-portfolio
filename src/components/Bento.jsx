@@ -10,7 +10,7 @@ const scrollToProjects = () => {
 
 function Bento() {
     return (
-        <main className="justify-self-center max-w-5xl">
+        <main>
             <h1 className="text-h1 my-6 max-w-fit text-transparent bg-clip-text bg-gradient font-netron max-sm:text-h2">ABOUT</h1>
             <section className='grid grid-cols-2 gap-3 max-sm:grid-cols-1'>
 

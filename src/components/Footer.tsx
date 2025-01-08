@@ -24,7 +24,7 @@ const Footer = () => {
     };
 
     return (
-        <footer className='flex justify-around bg-footer p-10 border-t-4 border-dark mt-20 max-sm:flex-col-reverse'>
+        <footer className='flex justify-around bg-footer p-10 border-t-4 border-dark max-sm:flex-col-reverse'>
             <section className='space-y-20'>
                 <div className='space-y-3'>
                     <h1 className='font-netron'>EMMAN MANDURIAGA</h1>

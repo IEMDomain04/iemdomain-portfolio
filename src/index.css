@@ -20,6 +20,7 @@
 body {
     background: url("/assets/bg.svg");
     background-size: cover;
+    background-position: top;
     font-family: google, sans-serif;
     color: white;
 }

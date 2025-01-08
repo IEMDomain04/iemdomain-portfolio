@@ -6,7 +6,7 @@ const scrollToBento = () => {
 
 function Header() {
   return (
-    <main className='justify-self-center max-w-5xl'>
+    <main>
       <section className='flex flex-col gap-10 sm:justify-center max-sm:pt-32'>
         
         <div className='flex w-fit items-center rounded-full gap-3 py-1.5 pl-3 pr-4 border border-accent'>
@@ -23,7 +23,7 @@ function Header() {
             <br />
             A WEB DEVELOPER.
           </h1>
-          <h2 className='text-base text-accent max-sm:text-sm'>
+          <h2 className='text-base max-w-3xl text-accent max-sm:text-sm'>
             A Computer Science Student aspiring to become a Full-stack developer and UX Engineer.
             I’m a dedicated problem-solver
             who thrives on learning and building. </h2>

@@ -11,7 +11,7 @@ const stacks = [
 
 const TechStack = () => {
     return (
-        <main className=''>
+        <main>
             <div className="p-5 rounded-xl bg-dark border border-accent duration-300 hover:shadow-primary">
                 <div className='flex w-fit items-center rounded-full gap-3 py-2 px-4 border mb-5 bg-black border-accent'>
                     <div className='relative size-3'>
