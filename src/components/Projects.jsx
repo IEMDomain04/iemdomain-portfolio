@@ -25,12 +25,13 @@ function Projects() {
                     </div>
                 </div>
 
+                {/* Remove the comment kapag gagawin ko na projects page.
                 <div>
                     <button className='px-5 py-3 h-fit border-accent border rounded-lg hover:scale-95 duration-300 active:scale-50 hover:bg-dark max-sm:p-3 max-sm:text-small' type="button"
-                    onClick={navigateToProjects}
                     > See all projects
                     </button>
                 </div>
+                */}
             </section>
 
             <ProjectCards />
