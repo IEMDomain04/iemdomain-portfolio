@@ -1,11 +1,11 @@
 import React from 'react'
 
 const socials = [
-    {src:"./assets/github.svg", href:"https://github.com/IEMDomain04", alt:"Github icon"},
-    {src:"./assets/linkedin.svg", href:"https://www.linkedin.com/in/emman-manduriaga0044/", alt:"Linkedin icon"},
-    {src:"./assets/facebook.svg", href:"https://www.facebook.com/emman.manduriaga.7", alt:"Facebook icon"},
-    {src:"./assets/email.svg", href:"emmanmanduriaga@gmail.com", alt:"Email icon"},
-    {src:"./assets/notion.svg", href:"http://iememman.notion.site", alt:"Notion icon"},
+    {src:"/assets/github.svg", href:"https://github.com/IEMDomain04", alt:"Github icon"},
+    {src:"/assets/linkedin.svg", href:"https://www.linkedin.com/in/emman-manduriaga0044/", alt:"Linkedin icon"},
+    {src:"/assets/facebook.svg", href:"https://www.facebook.com/emman.manduriaga.7", alt:"Facebook icon"},
+    {src:"/assets/email.svg", href:"emmanmanduriaga@gmail.com", alt:"Email icon"},
+    {src:"/assets/notion.svg", href:"http://iememman.notion.site", alt:"Notion icon"},
 ]
 
 const Contacts = () => {

@@ -26,7 +26,10 @@ function Projects() {
                 </div>
 
                 <div>
-                    <button className='px-5 py-3 h-fit border-accent border rounded-lg hover:scale-95 duration-300 active:scale-50 hover:bg-dark max-sm:p-3 max-sm:text-small' type="button"> See all projects</button>
+                    <button className='px-5 py-3 h-fit border-accent border rounded-lg hover:scale-95 duration-300 active:scale-50 hover:bg-dark max-sm:p-3 max-sm:text-small' type="button"
+                    onClick={navigateToProjects}
+                    > See all projects
+                    </button>
                 </div>
             </section>
 

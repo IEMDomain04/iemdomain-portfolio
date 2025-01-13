@@ -6,7 +6,7 @@ const links = [
 ]
 
 const updates = [
-    { date: "January 6", time: "12:32"},
+    { date: "Month Day", time: "????"},
 ]
 
 const socials = [
