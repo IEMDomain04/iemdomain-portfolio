@@ -8,7 +8,7 @@ const ProjectCards = () => {
             <section className='flex justify-center flex-wrap gap-20'>
                 {projects.slice(0, 3).map((project, index) => (
                     <section key={index}>
-                        <img className='rounded-lg mb-5 max-sm:justify-self-center' src={project.src} height={480} width={300} alt={project.alt} />
+                        <img className='rounded-lg mb-5 max-sm:justify-self-center' loading='lazy' src={project.src} height={480} width={300} alt={project.alt} />
 
                         <div className='grid gap-3 max-w-xs'>
                             <h2>{project.year}</h2>
