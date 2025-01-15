@@ -1,21 +1,5 @@
 import React from 'react'
-
-const links = [
-    { name: "About", href: "#bento-section"},
-    { name: "Project", href: "#project-section"},
-]
-
-const updates = [
-    { date: "Month Day", time: "????"},
-]
-
-const socials = [
-    {src:"./assets/github.svg", href:"https://github.com/IEMDomain04", alt:"Github icon"},
-    {src:"./assets/linkedin.svg", href:"https://www.linkedin.com/in/emman-manduriaga0044/", alt:"Linkedin icon"},
-    {src:"./assets/facebook.svg", href:"https://www.facebook.com/emman.manduriaga.7", alt:"Facebook icon"},
-    {src:"./assets/email.svg", href:"emmanmanduriaga@gmail.com", alt:"Email icon"},
-    {src:"./assets/notion.svg", href:"http://iememman.notion.site", alt:"Notion icon"},
-]
+import { socials, links, updates } from '../Cards/Props';
 
 const Footer = () => {
     const handleScroll = (e, href) => {
@@ -34,7 +18,7 @@ const Footer = () => {
                 <div className='space-y-5'>
                 <div className='flex flex-wrap gap-5'>
                     {socials.map((social, index) => (
-                        <a className="h-auto w-5 max-sm:w-6 duration-300 hover:scale-90" key={index} target='_blank' href={social.href}><img src={social.src} alt={social.alt} /></a>
+                        <a className="h-auto w-5 max-sm:w-6 duration-300 hover:scale-90" key={index} target='_blank' href={social.href}><img src={social.src} alt={social.alt} loading='lazy' /></a>
                     ))}
                 </div>
                 <h2 className='text-small text-accent'>© 2025 EMMAN. All rights reserved.</h2>

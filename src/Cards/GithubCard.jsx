@@ -14,7 +14,7 @@ const GithubCard = () => {
                 </div>
 
                 <a target='_blank' href="https://github.com/IEMDomain04">
-                    <img className='mb-5 mx-auto cursor-pointer shadow rounded-md hover:scale-95 duration-300 hover:shadow-primary max-sm:rounded-sm' src="https://github-readme-stats.vercel.app/api?username=IEMDomain04&show_icons=true&theme=dark" alt="GitHub Contribution Graph" />
+                    <img loading='lazy' className='mb-5 mx-auto cursor-pointer shadow rounded-md hover:scale-95 duration-300 hover:shadow-primary max-sm:rounded-sm' src="https://github-readme-stats.vercel.app/api?username=IEMDomain04&show_icons=true&theme=dark" alt="GitHub Contribution Graph" />
                 </a>
 
                 <div className='text-left'>
