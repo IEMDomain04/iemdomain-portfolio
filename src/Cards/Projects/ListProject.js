@@ -28,21 +28,21 @@ const projects = [
     },
 
     {
-        src: "https://p325k7wa.twic.pics/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg?twic=v1/resize=760/step=10/quality=80",
-        title: "DOM Compiler",
-        year: "2025",
-        description: "DOMAIN Compiler is a programming language aligned in the concept of the anime Jujutsu Kaisen",
-        href: "https://dom-ide.vercel.app/",
-        alt: "Dom Compiler",
-    },
-
-    {
         src: "https://store-images.s-microsoft.com/image/apps.58378.13850085746326678.826cc014-d610-46af-bdb3-c5c96be4d22c.64287a91-c69e-4723-bb61-03fecd348c2a?q=90&w=480&h=270",
         title: "MatchCraft: Flipcard game themed Minecraft",
         year: "2024",
         description: "A flipping card game developed in flutter.",
         href: "https://github.com/IEMDomain04/MatchCraft",
         alt: "Matchcraft cover",
+    },
+
+    {
+        src: "https://p325k7wa.twic.pics/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg?twic=v1/resize=760/step=10/quality=80",
+        title: "DOM Compiler",
+        year: "2025",
+        description: "DOMAIN Compiler is a programming language aligned in the concept of the anime Jujutsu Kaisen",
+        href: "https://dom-ide.vercel.app/",
+        alt: "Dom Compiler",
     },
 ];
 

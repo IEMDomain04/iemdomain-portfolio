@@ -1,11 +1,17 @@
-import React from 'react'
-import ProjectCards from '../Cards/Projects/ProjectCards'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import ProjectCards from '../Cards/Projects/ProjectCards';
 
 function Projects() {
+    const navigate = useNavigate();
+
+    const handleSeeAllProjectsClick = () => {
+        navigate('/projects');
+    };
+
     return (
         <main>
             <section className='flex justify-between items-center mb-10 max-sm:block max-sm:space-y-5'>
-
                 <div>
                     <div className='flex w-fit items-center rounded-full gap-3 py-2 px-8 border mb-5 bg-black border-accent'>
                         <div className='relative size-3'>
@@ -14,7 +20,6 @@ function Projects() {
                         </div>
                         <h2 className='text-small'> Projects </h2>
                     </div>
-
                     <div className='space-y-5'>
                         <h1 className='max-w-fit text-transparent bg-clip-text bg-gradient text-h1 font-netron max-sm:text-h2'>
                             LEARNING JOURNEY
@@ -24,19 +29,19 @@ function Projects() {
                             overcoming challenges, and sharing lessons learned along the way. </h2>
                     </div>
                 </div>
-
-                {/* Remove the comment kapag gagawin ko na projects page.
                 <div>
-                    <button className='px-5 py-3 h-fit border-accent border rounded-lg hover:scale-95 duration-300 active:scale-50 hover:bg-dark max-sm:p-3 max-sm:text-small' type="button"
-                    > See all projects
+                    <button
+                        className='px-5 py-3 h-fit border-accent border rounded-lg hover:scale-95 duration-300 active:scale-50 hover:bg-dark max-sm:p-3 max-sm:text-small'
+                        type="button"
+                        onClick={handleSeeAllProjectsClick}
+                    >
+                        See all projects
                     </button>
                 </div>
-                */}
             </section>
-
-            <ProjectCards />
+            <ProjectCards sliceCount={3} />
         </main>
-    )
+    );
 }
 
-export default Projects
+export default Projects;
