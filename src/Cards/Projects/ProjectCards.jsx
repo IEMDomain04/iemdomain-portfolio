@@ -17,7 +17,7 @@ const ProjectCards = ({ sliceCount }) => {
                             <h2 className='text-sm text-accent'>{project.description}</h2>
                             <a
                                 className="relative text-primary max-w-fit duration-300 hover:after:w-full after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-primary after:transition-width after:duration-300"
-                                href={project.href}
+                                href={project.href} target='_blank'
                             >
                                 Learn more..
                             </a>

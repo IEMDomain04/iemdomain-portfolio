@@ -32,7 +32,7 @@ const projects = [
         title: "MatchCraft: Flipcard game themed Minecraft",
         year: "2024",
         description: "A flipping card game developed in flutter.",
-        href: "https://github.com/IEMDomain04/MatchCraft",
+        href: "https://github.com/IEMDomain04/MatchCraft/releases/tag/v1.0.0",
         alt: "Matchcraft cover",
     },
 
@@ -43,6 +43,15 @@ const projects = [
         description: "DOMAIN Compiler is a programming language aligned in the concept of the anime Jujutsu Kaisen",
         href: "https://dom-ide.vercel.app/",
         alt: "Dom Compiler",
+    },
+
+    {
+        src: "https://media.istockphoto.com/id/1401460590/photo/businessman-working-on-laptop-with-document-management-icon.jpg?s=612x612&w=0&k=20&c=o8Ci6F_YCWFlKE2Yr6A2wbDvrZRwSB3YssLakLkrFBo=",
+        title: "TrackItAll",
+        year: "2025",
+        description: "TIA is an inventory System that helps you easily manage, track, and update your stock items. Implemented with Firebase Database.",
+        href: "https://track-it-all-five.vercel.app/",
+        alt: "Track It All",
     },
 ];
 

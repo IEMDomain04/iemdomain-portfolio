@@ -3,7 +3,7 @@ import ProjectCards from '../Cards/Projects/ProjectCards'
 
 const ProjectPage = () => {
   return (
-    <main className="justify-self-center max-w-6xl my-20 max-sm:-mt-16 max-sm:px-4 max-sm:space-y-10">
+    <main className="justify-self-center max-w-6xl my-20 max-sm:px-4 max-sm:space-y-10">
       <div className='mb-10'>
         <div className='flex w-fit items-center rounded-full gap-3 py-2 px-8 border mb-5 bg-black border-accent'>
           <div className='relative size-3'>
