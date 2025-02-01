@@ -8,17 +8,18 @@ const Navbar = () => {
         navigate('/');
     };
 
-    const scrollToBento = () => {
-        document.getElementById('bento-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
-    };
+    const goToAboutPage = () => {
+        navigate('/aboutme');
+    }
 
-    const scrollToProjects = () => {
-        document.getElementById('project-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
-    };
+    const gotToProjectsPage = () => {
+        navigate('/projects')
+    }
+    // NAV PROPS
     const navs = [
         { name: "Home", src: "", onClick: goToHomePage },
-        { name: "About", src: "", onClick: scrollToBento },
-        { name: "Projects", src: "", onClick: scrollToProjects },
+        { name: "About", src: "", onClick: goToAboutPage },
+        { name: "Projects", src: "", onClick: gotToProjectsPage },
     ]
     return (
         <main className='top-3 z-50 sticky justify-items-center'>

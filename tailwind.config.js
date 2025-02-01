@@ -25,7 +25,8 @@ export default {
       fontSize: {
         h1: '40px',
         h2: '20px',
-        small: '12px'
+        small: '12px',
+        supertiny: '10px',
       }
     },
   },

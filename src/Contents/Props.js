@@ -1,3 +1,5 @@
+// ONLY CONTAINS ARRAY PROPS FOR LESS REDUNDANCY. 
+
 const socials = [
     { src: "/assets/github.svg", href: "https://github.com/IEMDomain04", alt: "Github icon" },
     { src: "/assets/linkedin.svg", href: "https://www.linkedin.com/in/emman-manduriaga0044/", alt: "Linkedin icon" },
@@ -16,12 +18,12 @@ const stacks = [
 ]
 
 const links = [
-    { name: "About", href: "#bento-section"},
-    { name: "Project", href: "#project-section"},
+    { name: "About", href: "/aboutme"},
+    { name: "Project", href: "/projects"},
 ]
 
 const updates = [
-    { date: "Month Day", time: "????"},
+    { date: "February 1", time: "8:21"},
 ]
 
 export { socials, stacks, links, updates };

@@ -1,10 +1,14 @@
 import React from 'react'
-
-const scrollToBento = () => {
-  document.getElementById('bento-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
-};
+import { useNavigate } from 'react-router-dom';
+import Contacts from '../Contents/Contacts';
 
 function Header() {
+  const navigate = useNavigate();
+
+  const handleSeeAbout = () => {
+    navigate('/aboutme')
+  }
+
   return (
     <main>
       <section className='flex flex-col gap-10 sm:justify-center max-sm:pt-32'>
@@ -21,7 +25,7 @@ function Header() {
           <h1 className='max-w-fit text-transparent bg-clip-text bg-gradient text-h1 text-gradient font-netron font-medium max-sm:text-2xl'>
             I'M EMMAN.
             <br />
-            A WEB DEVELOPER.
+            Aspiring UX Engineer.
           </h1>
           <h2 className='text-base max-w-3xl text-accent max-sm:text-sm'>
             A Computer Science Student aspiring to become a Full-stack developer and UX Engineer.
@@ -29,9 +33,12 @@ function Header() {
             who thrives on learning and building. </h2>
         </div>
 
-        
+        <div>
+            <Contacts />
+        </div>
+
         <button class=" border border-accent text-sm rounded max-w-40 py-2 px-5 hover:scale-95 hover:bg-dark max-sm:max-w-full duration-200 active:scale-50"
-        onClick={scrollToBento}>
+        onClick={handleSeeAbout}>
             Learn more..
         </button>
       </section>

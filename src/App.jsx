@@ -1,6 +1,7 @@
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import HomePage from "./page/HomePage";
+import AboutPage from "./page/AboutPage";
 import ProjectPage from "./page/ProjectPage";
 import Navbar from "./components/Navbar"; // Assume Navbar is already imported
 
@@ -21,6 +22,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/aboutme" element={<AboutPage />} />
         <Route path="/projects" element={<ProjectPage />} />
       </Routes>
     </>

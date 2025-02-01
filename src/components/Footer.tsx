@@ -1,11 +1,7 @@
 import React from 'react'
-import { socials, links, updates } from '../Cards/Props';
+import { socials, links, updates } from '../Contents/Props';
 
 const Footer = () => {
-    const handleScroll = (e, href) => {
-        e.preventDefault();
-        document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
-    };
 
     return (
         <footer className='flex justify-around bg-footer p-10 border-t-4 border-dark max-sm:flex-col-reverse'>
@@ -35,7 +31,6 @@ const Footer = () => {
                             className='block text-accent text-small hover:text-white'
                             key={index}
                             href={link.href}
-                            onClick={(e) => handleScroll(e, link.href)}
                         >
                             {link.name}
                         </a>

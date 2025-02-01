@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import ProjectCards from '../Cards/Projects/ProjectCards';
+import ProjectCards from '../Contents/Projects/ProjectCards';
 
 function Projects() {
     const navigate = useNavigate();
@@ -25,8 +25,8 @@ function Projects() {
                             LEARNING JOURNEY
                         </h1>
                         <h2 className='text-sm max-w-2xl text-slate-400 max-sm:text-small'>
-                            Insights and experiences from my journey as a developer—exploring ideas,
-                            overcoming challenges, and sharing lessons learned along the way. </h2>
+                        Each project reflects my growth as a developer. Here are some works from my university years<br /> 
+                        though not all are shown due to space constraints, but believe me I made most of these... 🙂 </h2>
                     </div>
                 </div>
                 <div>
@@ -39,7 +39,7 @@ function Projects() {
                     </button>
                 </div>
             </section>
-            <ProjectCards sliceCount={3} />
+            <ProjectCards sliceCount={2} />
         </main>
     );
 }
