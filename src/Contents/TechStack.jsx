@@ -15,10 +15,15 @@ const TechStack = () => {
 
                 <div className="flex justify-center flex-wrap gap-8 mb-5 max-sm:gap-4">
                     {stacks.map((stack, index) => (
-                        <a className='animate-pulse' target='_blank' href={stack.href}><img className="tech-icon h-auto w-12 cursor-pointer shadow-inner rounded-xl p-1 hover:scale-95 duration-300 hover:shadow-primary" src={stack.src} alt={stack.alt} loading='lazy' /></a>
+                        <a key={index} className='animate-pulse' target='_blank'
+                            href={stack.href}>
+                            <img className="tech-icon h-auto w-12 cursor-pointer shadow-inner rounded-xl p-1 hover:scale-95 duration-300 hover:shadow-primary"
+                                src={stack.src}
+                                alt={stack.alt}
+                                loading='lazy' /></a>
                     ))}
                 </div>
-                
+
                 <div className='text-left'>
                     <p className='text-accent text-sm'> Primarily focused on the JavaScript ecosystem, but always eager to explore and learn new technologies. </p>
                 </div>

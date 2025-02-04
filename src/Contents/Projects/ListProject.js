@@ -31,6 +31,16 @@ const projects = [
     },
 
     {
+        src: "./assets/mockups/TRex.png",
+        title: "T-Rex Assembly Game",
+        year: "2023",
+        description: "T-rex an 8086 Assembly Language Implementation of the offline dinosaur chrome game developed by Google.",
+        href: "https://github.com/IEMDomain04/T-Rex-ASM/releases/tag/v1.1.0",
+        alt: "TRex Assembly Image",
+        role:"Lead UI Designer"
+    },
+
+    {
         src: "./assets/mockups/btw-cover.svg",
         title: "Beyond the Walls",
         year: "2024",

@@ -6,7 +6,7 @@ const Contacts = () => {
         <main>
             <div className="flex space-x-5 bg-gray-800 text-white rounded-xl">
                 {socials.map((social, index) => (
-                    <a className='py-3 px-4 max-sm:p-3 max-sm:w-14 bg-dark rounded-xl border shadow-inner border-accent duration-300 hover:scale-95 hover:shadow-primary'
+                    <a className='py-3 px-4 max-sm:p-3.5 max-sm:w-14 bg-dark rounded-xl border shadow-inner border-accent duration-300 hover:scale-95 hover:shadow-primary'
                         key={index}
                         target='_blank'
                         href={social.href}>

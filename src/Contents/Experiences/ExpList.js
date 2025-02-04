@@ -9,6 +9,11 @@ const Experiences = [
         date:"Nov 2024",
     },
 
+    {exp:"Software Development | Cloud and Infrastructure Skill-Builder (Skill-builder Team)",
+        from:"AWS Cloud Club - Haribon",
+        date:"Dec 2024 - Present",
+    },
+
     {exp:"UX/UI Designer and Researcher",
         from:"Quantum Computing Society of the Philippines",
         date:"Nov 2024 - Present",

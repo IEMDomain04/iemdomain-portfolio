@@ -39,7 +39,7 @@ const Footer = () => {
                     </div>
                     
                     {updates.map((update, index) => (
-                        <h2 className='text-small text-accent' key={index}>Last updated by Emman on {update.date}, 2025 at {update.time} AM</h2>
+                        <h2 className='text-small text-accent' key={index}>Last updated by Emman on {update.date}, 2025 at {update.time}</h2>
                     ))}
                     
             </section>
