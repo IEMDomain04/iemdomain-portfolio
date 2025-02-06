@@ -12,7 +12,7 @@ const ProjectCards = ({ sliceCount }) => {
                     <section key={index}>
                         <img className='rounded-lg mb-5 max-sm:justify-self-center' loading='lazy' src={project.src} height={480} width={300} alt={project.alt} />
                         <div className='grid gap-3 max-w-xs'>
-                            <div className='flex items-end space-x-3'>
+                            <div className='flex items-center space-x-3'>
                             <h2>{project.year}</h2>
                             <p className='text-small text-secondary'>{project.role}</p>
                             </div>
