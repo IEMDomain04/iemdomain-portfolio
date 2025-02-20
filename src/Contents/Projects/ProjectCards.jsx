@@ -7,7 +7,7 @@ const ProjectCards = ({ sliceCount }) => {
 
     return (
         <main>
-            <section className='flex flex-wrap gap-20'>
+            <section className='flex flex-wrap gap-y-20 gap-x-5'>
                 {displayedProjects.map((project, index) => (
                     <section key={index}>
                         <img className='rounded-lg mb-5 max-sm:justify-self-center' loading='lazy' src={project.src} height={480} width={300} alt={project.alt} />
