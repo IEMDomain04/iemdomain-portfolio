@@ -4,6 +4,7 @@ import HomePage from "./page/HomePage";
 import AboutPage from "./page/AboutPage";
 import ProjectPage from "./page/ProjectPage";
 import Navbar from "./components/Navbar"; // Assume Navbar is already imported
+import CaseStudy from "./page/CaseStudy";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutme" element={<AboutPage />} />
         <Route path="/projects" element={<ProjectPage />} />
+        <Route path="/casestudy" element={<CaseStudy />} />
       </Routes>
     </>
   );

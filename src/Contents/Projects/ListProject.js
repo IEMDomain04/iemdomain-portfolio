@@ -55,7 +55,7 @@ const projects = [
         title: "RAPID",
         year: "2024",
         description: "UX Case Study: A website for our business proposal in the subject The Entrepreneurial Mind.",
-        href: "https://docs.google.com/presentation/d/1H0eUeTsffrGpgM0-4ekE0vUyqOivGZS9neg8yWOg6oc/edit?usp=sharing",
+        href: "/casestudy",
         alt: "RAPID cover",
         role:"Developer - UI/UX Designer"
     },
