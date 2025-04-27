@@ -2,9 +2,13 @@ import React from 'react'
 import ProjectCards from '../Contents/Projects/ProjectCards'
 
 const ProjectPage = () => {
-  
+
   const linkGithub = () => {
     window.open("https://github.com/IEMDomain04", "_blank");
+  }
+
+  const linkNotion = () => {
+    window.open("https://iememman.notion.site/", "_blank");
   }
 
   return (
@@ -27,14 +31,23 @@ const ProjectPage = () => {
               though not all are shown due to space constraints, but believe me I made most of these... 🙂 </h2>
           </div>
         </div>
-        <div>
+        <div className='flex flex-col gap-5'>
           <button
-            className='flex items-center px-5 py-3 h-fit border-accent border rounded-lg hover:scale-95 duration-300 active:scale-50 hover:bg-dark max-sm:p-3 max-sm:text-small'
+            className='flex justify-center items-center px-5 py-3 h-fit border-accent border rounded-lg hover:scale-95 duration-300 active:scale-50 hover:bg-dark max-sm:p-3 max-sm:text-small'
             type="button"
             onClick={linkGithub}
           >
             <img className='mr-2' src="/assets/github.svg" height={25} width={25} alt="Github image" />
-            See my Github
+            My GitHub
+          </button>
+
+          <button
+            className='flex justify-center items-center px-5 py-3 h-fit border-accent border rounded-lg hover:scale-95 duration-300 active:scale-50 hover:bg-dark max-sm:p-3 max-sm:text-small'
+            type="button"
+            onClick={linkGithub}
+          >
+            <img className='mr-2' src="/assets/notion.svg" height={25} width={25} alt="Github image" />
+            My Notion page
           </button>
         </div>
       </section>
