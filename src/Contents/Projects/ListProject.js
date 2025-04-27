@@ -45,7 +45,7 @@ const projects = [
         title: "Beyond the Walls",
         year: "2024",
         description: "UX Case Study: A Progressive Web App (PWA) designed to guide you through Intramuros.",
-        href: "https://docs.google.com/presentation/d/18L6kEnmih-rZT6XkOiOm-6Y6Xj7W4yAnbZjrQGQPOwo/edit?usp=sharing",
+        href: "/beyondthewalls",
         alt: "Beyond the Walls cover",
         role:"Developer - UI/UX Designer"
     },
