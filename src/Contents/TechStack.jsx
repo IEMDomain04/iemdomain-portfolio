@@ -26,7 +26,7 @@ const TechStack = () => {
 
                 <div className='text-left'>
                     <p className='text-accent text-sm'> Primarily focused on the JavaScript ecosystem when developing.<br /> 
-                    Figma, Photoshop, and Davinci Resolve for creative editing, but always eager to explore and learn new technologies. </p>
+                    Figma, and Photoshop for creative editing, but always eager to explore and learn new technologies. </p>
                 </div>
             </div>
         </main>

@@ -10,10 +10,12 @@ function About() {
             <section className='justify-self-center space-y-10 w-full max-w-5xl'>
                 <div className='space-y-5'>
                     <h1 className='text-transparent bg-clip-text bg-gradient text-h1 font-netron max-sm:text-h2'>
-                        LEARNING JOURNEY
+                        ABOUT ME
                     </h1>
                     <h2 className='text-sm text-slate-400 max-sm:text-small'>
-                        Just a simple about me page that contains about myself.</h2>
+                        I am committed to continuously learning new technologies and enhancing my skills.
+                        Collaboration and creativity inspire me to develop impactful solutions through design and development.
+                    </h2>
                 </div>
 
                 <div>
