@@ -39,7 +39,7 @@ function Projects() {
                     </button>
                 </div>
             </section>
-            <ProjectCards sliceCount={7} />
+            <ProjectCards sliceCount={8} />
         </main>
     );
 }
