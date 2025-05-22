@@ -1,13 +1,5 @@
 // ONLY CONTAINS ARRAY PROPS FOR LESS REDUNDANCY. 
 
-const socials = [
-    { src: "/assets/github.svg", href: "https://github.com/IEMDomain04", alt: "Github icon" },
-    { src: "/assets/linkedin.svg", href: "https://www.linkedin.com/in/emman-manduriaga0044/", alt: "Linkedin icon" },
-    { src: "/assets/facebook.svg", href: "https://www.facebook.com/emman.manduriaga.7", alt: "Facebook icon" },
-    { src: "/assets/email.svg", href: "emmanmanduriaga@gmail.com", alt: "Email icon" },
-    { src: "/assets/notion.svg", href: "http://iememman.notion.site", alt: "Notion icon" },
-]
-
 const stacks = [
     { src: "./assets/icons/react.svg", href: "https://react.dev/", alt: "React icon" },
     { src: "./assets/icons/python.svg", href: "https://www.python.org/", alt: "Python icon" },
@@ -48,4 +40,4 @@ const updates = [
     { date: "February 5", time: "1:00 AM"},
 ]
 
-export { socials, stacks, links, updates, certificates };
+export { stacks, links, updates, certificates };
