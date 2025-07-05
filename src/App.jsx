@@ -3,17 +3,17 @@ import { useEffect } from "react";
 import HomePage from "./page/HomePage";
 import AboutPage from "./page/AboutPage";
 import ProjectPage from "./page/ProjectPage";
-import Navbar from "./components/Navbar"; // Assume Navbar is already imported
+import Navbar from "./components/Navbar";
 import CaseStudy from "./page/CaseStudy";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top of the page whenever the route changes
+    window.scrollTo(0, 0); 
   }, [pathname]);
 
-  return null; // No UI component, just side effects
+  return null; 
 };
 
 const App = () => {
