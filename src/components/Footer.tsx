@@ -1,4 +1,10 @@
-import { links, updates } from "../Contents/Props";
+const updates = [
+  {
+    date: "January 1",
+    time: "12:00 PM",
+  },
+];
+
 const socials = [
   {
     src: "/assets/github.svg",
@@ -27,9 +33,24 @@ const socials = [
   },
 ];
 
+const links = [
+  {
+    name: "About Me",
+    href: "/aboutme",
+  },
+  {
+    name: "Projects",
+    href: "/projects",
+  },
+  {
+    name: "Case Study",
+    href: "/casestudy",
+  },
+]
+
 const Footer = () => {
   return (
-    <footer className="flex justify-around bg-footer p-10 border-t-4 border-dark max-sm:flex-col-reverse">
+    <footer className="flex justify-around bg-footer p-10 border-t-4 mt-10 border-dark max-sm:flex-col-reverse">
       <section className="space-y-10">
         <div className="space-y-3">
           <h1 className="font-netron">EMMAN MANDURIAGA</h1>
@@ -41,12 +62,7 @@ const Footer = () => {
         <div className="space-y-5">
           <div className="flex flex-wrap gap-5">
             {socials.map((social, index) => (
-              <a
-                className="h-auto w-5 max-sm:w-6 duration-300 hover:scale-90"
-                key={index}
-                target="_blank"
-                href={social.href}
-              >
+              <a className="h-auto w-5 max-sm:w-6 duration-300 hover:scale-90" key={index} target="_blank" href={social.href}>
                 <img src={social.src} alt={social.alt} loading="lazy" />
               </a>
             ))}
@@ -57,18 +73,12 @@ const Footer = () => {
         </div>
       </section>
 
-      <section className="space-y-24 max-sm:space-y-0 max-sm:mb-20 max-sm:flex max-sm:flex-col-reverse">
+      <section className="space-y-10 max-sm:space-y-0 max-sm:mb-20 max-sm:flex max-sm:flex-col-reverse">
         <div className="space-y-3 max-w-fit">
           <h1 className="max-sm:mt-10">Me</h1>
           <div className="space-y-2">
             {links.map((link, index) => (
-              <a
-                className="block text-accent text-small hover:text-white"
-                key={index}
-                href={link.href}
-              >
-                {link.name}
-              </a>
+              <a className="block text-accent text-small hover:text-white" key={index} href={link.href}> {link.name} </a>
             ))}
           </div>
         </div>
